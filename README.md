@@ -1,6 +1,6 @@
 # Hi 👋, I'm Maxence01090
 
-### A budding Java developer
+### Java Developer • Minecraft Plugin Developer • Linux Enthusiast
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Maxence01090&color=blue" alt="Profile views" /> </p>
 - 🔭 I'm currently working on **Some java projects**
@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **contact@mxnroot.com**
 
-- ⚡ Fun fact **I'm french 🇫🇷**
+⚡ Fun fact: Most of my projects start with "this should be easy".
 
 ## 🚀 My Projects
 
@@ -29,7 +29,68 @@ I've published Minecraft projects on Modrinth. Feel free to check out my work:
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/arduino" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=arduino" alt="arduino" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/css3" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/docker" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/java" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/linux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nginx" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nginx" alt="nginx" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/spring" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=spring" alt="spring" width="40" height="40"/> </a></p>
+
+<p align="left">
+  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=arduino" alt="Arduino" width="40" height="40"/>
+  </a>
+
+  <a href="https://developer.mozilla.org/docs/Web/CSS" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=css" alt="CSS" width="40" height="40"/>
+  </a>
+
+  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=docker" alt="Docker" width="40" height="40"/>
+  </a>
+
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=git" alt="Git" width="40" height="40"/>
+  </a>
+
+  <a href="https://github.com/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="40" height="40"/>
+  </a>
+
+  <a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=java" alt="Java" width="40" height="40"/>
+  </a>
+
+  <a href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="40" height="40"/>
+  </a>
+
+  <a href="https://www.kernel.org/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="40" height="40"/>
+  </a>
+
+  <a href="https://ubuntu.com/server" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu Server" width="40" height="40"/>
+  </a>
+
+  <a href="https://nginx.org/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=nginx" alt="Nginx" width="40" height="40"/>
+  </a>
+
+  <a href="https://nodejs.org/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="40" height="40"/>
+  </a>
+
+  <a href="https://www.python.org/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=py" alt="Python" width="40" height="40"/>
+  </a>
+
+  <a href="https://spring.io/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=spring" alt="Spring" width="40" height="40"/>
+  </a>
+
+  <a href="https://papermc.io/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=gradle" alt="Gradle" width="40" height="40"/>
+  </a>
+
+  <a href="https://maven.apache.org/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=maven" alt="Maven" width="40" height="40"/>
+  </a>
+</p>
 
 <p><img align="left" src="https://github-readme-stats-plus-theta.vercel.app/api/top-langs?username=Maxence01090&show_icons=true&locale=en&layout=compact" alt="Maxence01090" /></p>
 
