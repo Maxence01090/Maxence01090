@@ -3,6 +3,7 @@
 ### Java Developer • Minecraft Plugin Developer • Linux Enthusiast
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Maxence01090&color=blue" alt="Profile views" /> </p>
+
 - 🔭 I'm currently working on **Some java projects**
 
 - 🌱 I'm currently learning **Java**
