@@ -15,6 +15,14 @@
 
 - ⚡ Fun fact **I'm french 🇫🇷**
 
+## 🚀 My Projects
+
+I've published Minecraft projects on Modrinth. Feel free to check out my work:
+
+<a href="https://modrinth.com/user/maxence01090" target="_blank">
+  <img src="https://img.shields.io/badge/Modrinth-View%20My%20Projects-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white" alt="Modrinth Profile">
+</a>
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://github.com/Maxence01090" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Maxence01090" height="30" width="40" /></a>
