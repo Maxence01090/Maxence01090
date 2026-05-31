@@ -11,19 +11,19 @@ on:
       - main
 
 jobs:
-	generate:
-	permissions:
-		contents: write
-	runs-on: ubuntu-latest
-	timeout-minutes: 20
+  generate:
+    permissions:
+      contents: write
 
-	steps:
-		- name: generate contribution graph SVGs
-		uses: abozanona/pacman-contribution-graph@main
-		with:
-			github_user_name: ${{ github.repository_owner }}
-			# Comma-separated list of valid game names (default: pacman)
-			games: 'breakout,bomberman'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: generate contribution graph SVGs
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: 'breakout,bomberman'
 		- name: push SVGs to the output branch
 		uses: crazy-max/ghaction-github-pages@v3.1.0
 		with:
