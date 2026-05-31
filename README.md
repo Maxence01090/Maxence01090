@@ -29,7 +29,7 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats-plus-theta.vercel.app/api?username=Maxence01090&show_icons=true&locale=en" alt="Maxence01090" /></p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Maxence01090/Maxence01090/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Maxence01090/Maxence01090/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Maxence01090/Maxence01090/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Maxence01090/Maxence01090/output/breakout-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Maxence01090/Maxence01090/output/breakout-contribution-graph.svg">
+  <img alt="breakout contribution graph" src="https://raw.githubusercontent.com/Maxence01090/Maxence01090/output/breakout-contribution-graph.svg">
 </picture>
