@@ -1,12 +1,14 @@
 name: generate arcade contribution graphs
 
 on:
-	schedule: # run automatically every 24 hours
-	- cron: "0 */24 * * *"
-	workflow_dispatch: # allows to manually run the job at any time
-	push: # run on every push on the master branch
-	branches:
-		- main
+  schedule:
+    - cron: "0 */24 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
 
 jobs:
 	generate:
