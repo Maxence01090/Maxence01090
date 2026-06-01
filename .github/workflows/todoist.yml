@@ -1,0 +1,85 @@
+name: Update Todoist Stats
+
+on:
+  schedule:
+    - cron: "* * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Todoist stats
+        env:
+          TODOIST_TOKEN: ${{ secrets.TODOIST_API_KEY }}
+        run: |
+          curl -s \
+            -H "Authorization: Bearer $TODOIST_TOKEN" \
+            https://api.todoist.com/api/v1/tasks/completed/stats \
+            > stats.json
+
+      - name: Update README
+        run: |
+          python3 << 'EOF'
+          import json
+
+          with open("stats.json") as f:
+              data = json.load(f)
+
+          karma = data.get("karma", 0)
+          completed = data.get("completed_count", 0)
+
+          today = 0
+          if data.get("days_items"):
+              today = data["days_items"][-1]["total_completed"]
+
+          streak = (
+              data.get("goals", {})
+                  .get("max_daily_streak", {})
+                  .get("count", 0)
+          )
+
+          block = f"""🏆 {karma:,} Karma Points
+🌸 Completed {today:,} tasks today
+✅ Completed {completed:,} tasks so far
+⏳ Longest streak is {streak:,} days"""
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              readme = f.read()
+
+          start = "<!-- TODO-IST:START -->"
+          end = "<!-- TODO-IST:END -->"
+
+          before = readme.split(start)[0]
+          after = readme.split(end)[1]
+
+          new_readme = (
+              before
+              + start
+              + "\n"
+              + block
+              + "\n"
+              + end
+              + after
+          )
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new_readme)
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add README.md
+
+          git diff --staged --quiet || git commit -m "Update Todoist stats"
+
+          git push
