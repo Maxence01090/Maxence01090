@@ -45,10 +45,12 @@ jobs:
                   .get("count", 0)
           )
 
-          block = f"""🏆 {karma:,} Karma Points
-🌸 Completed {today:,} tasks today
-✅ Completed {completed:,} tasks so far
-⏳ Longest streak is {streak:,} days"""
+          block = "\n".join([
+    f"🏆 {karma:,} Karma Points",
+    f"🌸 Completed {today:,} tasks today",
+    f"✅ Completed {completed:,} tasks so far",
+    f"⏳ Longest streak is {streak:,} days"
+    ])
 
           with open("README.md", "r", encoding="utf-8") as f:
               readme = f.read()
