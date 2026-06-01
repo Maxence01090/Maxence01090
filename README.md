@@ -94,10 +94,13 @@ I've published Minecraft projects on Modrinth. Feel free to check out my work:
 </p>
 
 <!-- TODO-IST:START -->
-🏆 884.0 Karma Points
-🌸 Completed 0 tasks today
-✅ Completed 12 tasks so far
-⏳ Longest streak is 0 days
+# 📊 My Todoist Stats  
+
+🏆 884.0 Karma Points  
+🌸 Completed 0 tasks today  
+✅ Completed 12 tasks so far  
+⏳ Longest streak is 0 days  
+
 <!-- TODO-IST:END -->
 
 <p><img align="left" src="https://github-readme-stats-plus-theta.vercel.app/api/top-langs?username=Maxence01090&show_icons=true&locale=en&layout=compact" alt="Maxence01090" /></p>
