@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
       - name: Fetch Todoist stats
         env:
@@ -29,7 +30,7 @@ jobs:
           python3 << 'EOF'
           import json
 
-          with open("stats.json") as f:
+          with open("stats.json", "r") as f:
               data = json.load(f)
 
           karma = data.get("karma", 0)
@@ -37,7 +38,7 @@ jobs:
 
           today = 0
           if data.get("days_items"):
-              today = data["days_items"][-1]["total_completed"]
+              today = data["days_items"][-1].get("total_completed", 0)
 
           streak = (
               data.get("goals", {})
@@ -46,11 +47,11 @@ jobs:
           )
 
           block = "\n".join([
-    f"🏆 {karma:,} Karma Points",
-    f"🌸 Completed {today:,} tasks today",
-    f"✅ Completed {completed:,} tasks so far",
-    f"⏳ Longest streak is {streak:,} days"
-    ])
+              f"🏆 {karma:,} Karma Points",
+              f"🌸 Completed {today:,} tasks today",
+              f"✅ Completed {completed:,} tasks so far",
+              f"⏳ Longest streak is {streak:,} days"
+          ])
 
           with open("README.md", "r", encoding="utf-8") as f:
               readme = f.read()
@@ -61,15 +62,7 @@ jobs:
           before = readme.split(start)[0]
           after = readme.split(end)[1]
 
-          new_readme = (
-              before
-              + start
-              + "\n"
-              + block
-              + "\n"
-              + end
-              + after
-          )
+          new_readme = before + start + "\n" + block + "\n" + end + after
 
           with open("README.md", "w", encoding="utf-8") as f:
               f.write(new_readme)
@@ -79,9 +72,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
           git add README.md
-
           git diff --staged --quiet || git commit -m "Update Todoist stats"
-
           git push
