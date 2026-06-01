@@ -36,24 +36,11 @@ jobs:
           karma = data.get("karma", 0)
           completed = data.get("completed_count", 0)
 
-          today = 0
-          days = data.get("days_items") or []
-          if len(days) > 0:
-              today = days[-1].get("total_completed", 0)
-
-          streak = (
-              data.get("goals", {})
-                  .get("max_daily_streak", {})
-                  .get("count", 0)
-          )
-
           block = "\n".join([
           "# 📊 My Todoist Stats  ",
           "",
           f"🏆 {karma:,} Karma Points  ",
-          f"🌸 Completed {today:,} tasks today  ",
           f"✅ Completed {completed:,} tasks so far  ",
-          f"⏳ Longest streak is {streak:,} days  "
           ]) + "\n"
 
           with open("README.md", "r", encoding="utf-8") as f:
