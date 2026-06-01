@@ -93,6 +93,9 @@ I've published Minecraft projects on Modrinth. Feel free to check out my work:
   </a>
 </p>
 
+<!-- TODO-IST:START -->
+<!-- TODO-IST:END -->
+
 <p><img align="left" src="https://github-readme-stats-plus-theta.vercel.app/api/top-langs?username=Maxence01090&show_icons=true&locale=en&layout=compact" alt="Maxence01090" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats-plus-theta.vercel.app/api?username=Maxence01090&show_icons=true&locale=en" alt="Maxence01090" /></p>
