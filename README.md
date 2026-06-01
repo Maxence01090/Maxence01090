@@ -96,7 +96,7 @@ I've published Minecraft projects on Modrinth. Feel free to check out my work:
 <!-- TODO-IST:START -->
 🏆 884.0 Karma Points
 🌸 Completed 0 tasks today
-✅ Completed 11 tasks so far
+✅ Completed 12 tasks so far
 ⏳ Longest streak is 0 days
 <!-- TODO-IST:END -->
 
