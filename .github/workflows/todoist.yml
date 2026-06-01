@@ -47,11 +47,13 @@ jobs:
           )
 
           block = "\n".join([
-              f"🏆 {karma:,} Karma Points",
-              f"🌸 Completed {today:,} tasks today",
-              f"✅ Completed {completed:,} tasks so far",
-              f"⏳ Longest streak is {streak:,} days"
-          ])
+          "# 📊 My Todoist Stats  ",
+          "",
+          f"🏆 {karma:,} Karma Points  ",
+          f"🌸 Completed {today:,} tasks today  ",
+          f"✅ Completed {completed:,} tasks so far  ",
+          f"⏳ Longest streak is {streak:,} days  "
+          ]) + "\n"
 
           with open("README.md", "r", encoding="utf-8") as f:
               readme = f.read()
