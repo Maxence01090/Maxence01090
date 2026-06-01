@@ -2,7 +2,7 @@ name: Update Todoist Stats
 
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
