@@ -37,8 +37,9 @@ jobs:
           completed = data.get("completed_count", 0)
 
           today = 0
-          if data.get("days_items"):
-              today = data["days_items"][-1].get("total_completed", 0)
+          days = data.get("days_items") or []
+          if len(days) > 0:
+              today = days[-1].get("total_completed", 0)
 
           streak = (
               data.get("goals", {})
