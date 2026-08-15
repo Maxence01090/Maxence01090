@@ -98,7 +98,7 @@ I've published Minecraft projects on Modrinth. Feel free to check out my work:
 <!-- TODO-IST:START -->
 # 📊 My Todoist Stats  
 
-🏆 3,249.0 Karma Points  
+🏆 3,257.0 Karma Points  
 ✅ Completed 98 tasks so far  
 
 <!-- TODO-IST:END -->
